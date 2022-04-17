@@ -7,9 +7,9 @@ CouReco is a minimalistic system built on the idea to help learners navigate thr
 *NOTE: This is a personal project initiated with the author's requirement for an end-to-end data science project that could help learn the skills of creating a dataset through web scraping, deploying a web-app via [Streamlit](https://www.streamlit.io/) and a basic primer into content-based recommendation systems. Though this tool makes reasonable recommendations as of now, it is far from being "intelligent". However, you could download this repo and work on it and make it "smarter"!* :smile: 
  
 ## Dataset Used
-For the purpose of building CouReco, data from Coursera was scraped using the requests and beautifulsoup4 libraries. The ```scraper.py``` file contains code for scraping data from [https://www.coursera.org/courses](https://www.coursera.org/courses) and generates [coursera-courses-overview.csv](https://github.com/ry05/couReco/blob/master/data/coursera-courses-overview.csv). The ```course_scraper.py``` file contains code to scrape details of each individual course and the output is [coursera-individual-courses.csv](https://github.com/ry05/couReco/blob/master/data/coursera-individual-courses.csv).  
+For the purpose of building CouReco, data from Coursera was scraped using the requests and beautifulsoup4 libraries. The ```scraper.py``` file contains code for scraping data from [https://www.coursera.org/courses](https://www.coursera.org/courses) and generates [coursera-courses-overview.csv](https://github.com/skp0111/Course_Recommendation/blob/main/data/coursera-courses-overview.csv). The ```course_scraper.py``` file contains code to scrape details of each individual course and the output is [coursera-individual-courses.csv](https://github.com/skp0111/Course_Recommendation/blob/main/data/coursera-individual-courses.csv).  
 
-Both these above datasets have been combined to give [coursera-courses.csv](https://github.com/ry05/couReco/blob/master/data/coursera-courses.csv). This file consists of 1000 instances and 14 features and has a size of 1.41 MB.
+Both these above datasets have been combined to give [coursera-courses.csv](https://github.com/skp0111/Course_Recommendation/blob/main/data/coursera-courses.csv). This file consists of 1000 instances and 14 features and has a size of 1.41 MB.
 
 ### Features in the Dataset
 The following features have been extracted for the dataset created above:  
@@ -45,11 +45,11 @@ The instructions to run CouReco on your local system are as follows:
 5. The app should open at http://localhost:8501
 
 ## Screenshots
-![](https://github.com/ry05/couReco/blob/master/img/coureco-init.JPG)  
+![](https://github.com/skp0111/Course_Recommendation/blob/main/img/coureco-init.JPG)  
 Fig.1. The CouReco Interface
-![](https://github.com/ry05/couReco/blob/master/img/coureco-skill-filter.JPG)  
+![](https://github.com/skp0111/Course_Recommendation/blob/main/img/coureco-skill-filter.JPG)  
 Fig.2. Applying the Skill Filter
-![](https://github.com/ry05/couReco/blob/master/img/coureco-recommend.JPG)  
+![](https://github.com/skp0111/Course_Recommendation/blob/main/img/coureco-recommend.JPG)  
 Fig.3. Recommendations Generated
 
 ## What can CouReco do?
@@ -62,4 +62,3 @@ If you liked the concept and implementation of CouReco, do check out the followi
 * [The Streamlit Official Guide](https://www.streamlit.io/)
 * [The Real Python Guide to using Beautiful Soup](https://realpython.com/beautiful-soup-web-scraper-python/)
 * [An article about web scraping Coursera](https://medium.com/analytics-vidhya/web-scraping-and-coursera-8db6af45d83f)
-* [An article on building a content-based movie recommender with NLP](https://towardsdatascience.com/how-to-build-from-scratch-a-content-based-movie-recommender-with-natural-language-processing-25ad400eb243)
